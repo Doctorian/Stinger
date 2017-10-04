@@ -30,22 +30,22 @@ os.system("cls")
 
 #! PRINT TERMS !#
 try:
-	file = open("C:\Users\\"+user+"\Desktop\Python\SSH_Tools\Stinger\README.md", "r")
+	file = open("C:\Users\\"+user+"\Desktop\Python\SSH_Tools\Stinger\TOS.md", "r")
 
 	for line in file:
 
-		result_readme = os.path.isfile("C:\Users\\"+user+"\Desktop\Python\SSH_Tools\Stinger\README.md")
+		result_readme = os.path.isfile("C:\Users\\"+user+"\Desktop\Python\SSH_Tools\Stinger\TOS.md")
 
 		if result_readme == True:
 			print(line)
 
 except IOError:
-	print("README.md Cannot be found. Exiting.")
+	print("TOS.md Cannot be found. Exiting.")
 	sys.exit()
 
 time.sleep(4.5)
 
-terms = raw_input("Do you agree to the Readme? (y/N): ")
+terms = raw_input("\r\nDo you agree to the ToS? (y/N): ")
 if terms == 'y'.upper():
 	print("Saving Input")
 
@@ -67,8 +67,8 @@ if result == False:
 file = open("C:\Users\\"+user+"\Desktop\Python\SSH_Tools\Stinger\Configuration\config.cfg", "r")
 
 for line in file:
-	cfgIpv4 	   = line.split(":")[0]
-	cfgUsername    = line.split(":")[1]
+	cfgIpv4       = line.split(":")[0]
+	cfgUsername   = line.split(":")[1]
 	cfgPassword   = line.split(":")[2]
 
 print "IPAddress: %s " % (cfgIpv4)

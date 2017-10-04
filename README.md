@@ -1,6 +1,6 @@
 # Stinger
 
-#! Installation !#
+# Installation #
 
 Create Directory C:\Users\PCUSERNAME\Desktop\Python
 
@@ -14,12 +14,12 @@ Download (README.md into C:\Users\PCUSERNAME\Desktop\Python\SSH_Tools\Stinger\RE
 
 Download (config.cfg into C:\Users\PCUSERNAME\Desktop\Python\SSH_Tools\Stinger\Configuration\config.cfg)
 
-#! Missing Modules? !#
+# Missing Modules? #
 
 C:\Python27\Scripts\pip install getpass
 
 C:\Python27\Scripts\pip install pxssh
 
-#! Other Errors? !#
+# Other Errors? #
 
 Leave a comment with traceback (Full Error)

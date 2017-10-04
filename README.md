@@ -2,17 +2,8 @@
 
 # Installation #
 
-Create Directory C:\Users\PCUSERNAME\Desktop\Python
-
-Create Directory C:\Users\PCUSERNAME\Desktop\Python\SSH_Tools
-
-Create Directory C:\Users\PCUSERNAME\Desktop\Python\SSH_Tools\Stinger
-
-Create Directory C:\Users\PCUSERNAME\Desktop\Python\SSH_Tools\Stinger\Configuration
-
-Download (TOS.md into C:\Users\PCUSERNAME\Desktop\Python\SSH_Tools\Stinger\README.md)
-
-Download (config.cfg into C:\Users\PCUSERNAME\Desktop\Python\SSH_Tools\Stinger\Configuration\config.cfg)
+Download Stinger Repo (via git or download zip) and extract to Desktop!
+Run (python setup.py install)
 
 # Missing Modules? #
 

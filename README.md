@@ -3,6 +3,7 @@
 # Installation #
 
 Download Stinger Repo (via git or download zip) and extract to Desktop!
+
 Run (python setup.py install)
 
 # Missing Modules? #

